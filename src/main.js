@@ -48,9 +48,10 @@ window.onload = function(){
 	
 	// 画像をロード
 	me = new Image();
-	me.src = '../img/me.png' + '?' + new Date().getTime();
+	me.src = 'https://noty2008.github.io/giji3d/img/me.png' + '?' + new Date().getTime();
 	map = new Image();
-	map.src = '../img/circuit01.png' + '?' + new Date().getTime();
+	map.src = 'https://noty2008.github.io/giji3d/img/circuit01.png' + '?' + new Date().getTime();
+	
 	
 	// メイン処理へ
 	map.onload = function(){
